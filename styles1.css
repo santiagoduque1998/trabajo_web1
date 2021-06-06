@@ -1,0 +1,63 @@
+.navegacion a:hover {
+    background-color: #FFC107;
+    color:green;
+}
+.nav-bg {
+    background-color: #0097A7;
+}
+.navegacion {
+    scroll-snap-align: center;
+    scroll-snap-stop: always;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+@media (min-width:768px) {
+    .navegacion {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+.navegacion a{
+    padding: 16px 22px;
+    color:white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+span{
+    font-size: 20px;
+}
+
+.containerform{
+    border-radius: 8px;
+    border: 1px solid #d0d0d0;
+    background-color: gray;
+    max-height:500px;
+    max-width:500px;
+}
+.imagen1{
+    border-radius: 800px;
+    border: 1px solid black;
+    background-color: gray;
+}
+.imagenNav{
+    max-height:100px;
+    max-width:100px;
+    border-radius:20px;
+}
+h3,h5{
+    margin-left:5px;
+    font-family: 'Squada One', cursive;
+}
+body{
+    color:white;
+    background-image: url("img/Fondo.jpg") ;
+}
+footer,a{
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+
